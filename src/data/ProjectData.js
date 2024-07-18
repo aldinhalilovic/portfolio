@@ -5,14 +5,14 @@ import NetPlus from "../Assets/netPlus.jpeg";
 import CentarNit from "../Assets/centarNit.jpeg";
 // --------------------------------------- Project List
 export const ProjectList = [
-  {
-    img: DataSport,
-    title: "Datasport",
-    description:
-      "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
-    tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
-    demo_url: "https://datasport.app/",
-  },
+  // {
+  //   img: DataSport,
+  //   title: "Datasport",
+  //   description:
+  //     "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
+  //   tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
+  //   demo_url: "https://datasport.app/",
+  // },
   {
     img: DisneyClone,
     title: "Disney Clone",
