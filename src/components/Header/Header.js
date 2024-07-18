@@ -13,6 +13,9 @@ const Header = ({ toggle }) => {
           />
         </Logo>
         <NavMenu>
+          <NavLink className="menu-item" to="work" smooth={true}>
+            Experience
+          </NavLink>
           <NavLink className="menu-item" to="projects" smooth={true}>
             Projects
           </NavLink>
