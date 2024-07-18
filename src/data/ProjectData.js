@@ -1,6 +1,8 @@
 import DataSport from "../Assets/datasport.png";
 import DisneyClone from "../Assets/disneyClone.png";
 import CovidTracker from "../Assets/covidTracker.png";
+import NetPlus from "../Assets/netPlus.jpeg";
+import CentarNit from "../Assets/centarNit.jpeg";
 // --------------------------------------- Project List
 export const ProjectList = [
   {
@@ -83,7 +85,7 @@ export const stackList = [
 
 export const WorkList = [
   {
-    img: DataSport,
+    img: NetPlus,
     title: "Net Plus",
     description:
       "As a Software Engineer, I have extensive experience in creating high-quality React and React Native applications. My journey in this field has equipped me with the skills to design, develop, and deploy user-centric solutions that meet the needs of diverse users. In my current role, I have successfully delivered numerous projects involving complex frontend architectures and seamless user experiences. I specialize in using React for web applications, leveraging its powerful component-based architecture to build scalable and maintainable systems. With React Native, I have developed cross-platform mobile applications that provide a native look and feel on both iOS and Android devices.",
@@ -92,12 +94,11 @@ export const WorkList = [
     time: "02/2023 - Currnet",
   },
   {
-    img: DataSport,
+    img: CentarNit,
     title: "Centar Nit - Mentor",
     description:
       "I have had the rewarding experience of working as a mentor for an intensive 9-month course focused on HTML, CSS, JavaScript, and React. This role has allowed me to guide and support aspiring developers in their journey to master frontend technologies and build their own projects.",
-    tech_stack:
-      "Typescript, React, React Native, Tanstack Query, Redux, Styled Components",
+    tech_stack: "HTML, CSS, JavaScript, React",
     time: "01/2022 - 10/2022",
   },
 ];
