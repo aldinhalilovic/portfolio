@@ -8,15 +8,15 @@ import Astra from "../Assets/astra.png";
 export const ProjectList = [
   {
     img: Astra,
-    title: "Astra Pay",
+    title: `Astra Pay ₂₀₂₅₋`,
     description:
-      "Astra is a forward-thinking fintech company, designed to revolutionize your banking experience. While we’re not a traditional company, our services are delivered through our trusted, regulated partners. This ensures you enjoy the  reliability, combined with the cutting- edge innovation of fintech & blockchain.",
+      "Astra is a forward-thinking fintech company, designed to revolutionize your banking experience. While we’re not a traditional company, our services are delivered through our trusted, regulated partners. This ensures you enjoy the  reliability, combined with the cutting- edge innovation of fintech & blockchain.    2024.",
     tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
     demo_url: "https://astrapay.ai/",
   },
   {
     img: DataSport,
-    title: "Datasport",
+    title: "Datasport ₂₀₂₄₋",
     description:
       "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
     tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
