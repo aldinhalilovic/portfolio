@@ -3,16 +3,25 @@ import DisneyClone from "../Assets/disneyClone.png";
 import CovidTracker from "../Assets/covidTracker.png";
 import NetPlus from "../Assets/netPlus.jpeg";
 import CentarNit from "../Assets/centarNit.jpeg";
+import Astra from "../Assets/astra.png";
 // --------------------------------------- Project List
 export const ProjectList = [
-  // {
-  //   img: DataSport,
-  //   title: "Datasport",
-  //   description:
-  //     "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
-  //   tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
-  //   demo_url: "https://datasport.app/",
-  // },
+  {
+    img: Astra,
+    title: "Astra Pay",
+    description:
+      "Astra is a forward-thinking fintech company, designed to revolutionize your banking experience. While we’re not a traditional company, our services are delivered through our trusted, regulated partners. This ensures you enjoy the  reliability, combined with the cutting- edge innovation of fintech & blockchain.",
+    tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
+    demo_url: "https://astrapay.ai/",
+  },
+  {
+    img: DataSport,
+    title: "Datasport",
+    description:
+      "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
+    tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
+    demo_url: "https://datasport.app/",
+  },
   {
     img: DisneyClone,
     title: "Disney Clone",
