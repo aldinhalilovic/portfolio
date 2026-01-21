@@ -11,6 +11,7 @@ import {
   ScrollLink,
 } from "./HeroElements";
 import ManIcon from "../../Assets/manIlustration.webp";
+import { FaArrowDown } from "react-icons/fa";
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,10 +38,7 @@ function Hero() {
         <ScrollDown to="projects">
           <ScrollLink>
             Scroll down
-            <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
-              alt="scroll-down"
-            />
+            <FaArrowDown />
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

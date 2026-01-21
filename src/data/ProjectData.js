@@ -1,6 +1,8 @@
 import DataSport from "../Assets/datasport.png";
 import DisneyClone from "../Assets/disneyClone.png";
 import CovidTracker from "../Assets/covidTracker.png";
+import CentarNit from "../Assets/centarNit.jpeg";
+import Astra from '../Assets/asta_labs_logo.jpeg'
 // --------------------------------------- Project List
 export const ProjectList = [
   {
@@ -9,7 +11,7 @@ export const ProjectList = [
     description:
       "Transform the management of your academy – optimize training sessions, increase member engagement, and ensure timely payments with a quick and easy overview of unpaid memberships. Datasport offers everything you need for top-notch results and easy management of daily operations.",
     tech_stack: "Typescript, React, Tanstack Query, Zustand, MantineUi",
-    demo_url: "https://datasport.app/",
+    demo_url: "https://datasport.me/",
   },
   {
     img: DisneyClone,
@@ -35,19 +37,19 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     name: "HTML",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     name: "CSS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     name: "ReactJS",
   },
   {
@@ -60,7 +62,7 @@ export const stackList = [
   },
 
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: "https://reactnative.dev/img/header_logo.svg",
     name: "React Native",
   },
   {
@@ -68,36 +70,31 @@ export const stackList = [
     name: "Expo",
   },
   {
-    img: "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
-    name: "Tanstack Query",
+    img: "https://imgs.search.brave.com/y2odhyvvdKszBthqjqb4rWraWWhTt1Ei53jC6aeJX_I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90YW5z/dGFjay5kZXYvX2J1/aWxkL2Fzc2V0cy9z/cGxhc2gtbGlnaHQt/Q0hxTXN5cTgucG5n",
+    name: "Tanstack",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     name: "Git",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
-    name: "Responsive",
-  },
+  }
 ];
 
 export const WorkList = [
   {
-    img: DataSport,
-    title: "Net Plus",
+    img: Astra,
+    title: "Astra Labs",
     description:
-      "As a Software Engineer, I have extensive experience in creating high-quality React and React Native applications. My journey in this field has equipped me with the skills to design, develop, and deploy user-centric solutions that meet the needs of diverse users. In my current role, I have successfully delivered numerous projects involving complex frontend architectures and seamless user experiences. I specialize in using React for web applications, leveraging its powerful component-based architecture to build scalable and maintainable systems. With React Native, I have developed cross-platform mobile applications that provide a native look and feel on both iOS and Android devices.",
+      "I build and maintain scalable frontend architectures for Web3 and Fintech products, focusing on performance, reliability, and clean user experience in high-risk financial environments. I've developed entire frontend codebases from the ground up, defining project structure, architecture patterns, and best practices to ensure long-term maintainability. My work includes implementing complex multi-chain crypto payment flows, handling transaction states, and integrating wallet connectivity along with seamless on-ramp and off-ramp solutions. I design and build responsive, high-performance dashboards for banking and financial features, always keeping UX clarity and security in mind. I work closely with backend and blockchain teams to design clean, predictable API contracts, ensuring smooth data flow and system reliability. Across all projects, I prioritize performance, scalability, and security-aware UX, delivering frontend solutions that users can trust when dealing with financial and crypto assets.",
     tech_stack:
       "Typescript, React, React Native, Tanstack Query, Redux, Styled Components",
-    time: "02/2023 - Currnet",
+    time: "10/2023 - Current",
   },
   {
-    img: DataSport,
+    img: CentarNit,
     title: "Centar Nit - Mentor",
     description:
       "I have had the rewarding experience of working as a mentor for an intensive 9-month course focused on HTML, CSS, JavaScript, and React. This role has allowed me to guide and support aspiring developers in their journey to master frontend technologies and build their own projects.",
-    tech_stack:
-      "Typescript, React, React Native, Tanstack Query, Redux, Styled Components",
-    time: "01/2022 - 10/2022",
+    tech_stack: "HTML, CSS, JavaScript, React",
+    time: "02/2022 - 10/2023",
   },
 ];
